@@ -1,0 +1,135 @@
+header{
+    text-align: center;
+    font-size: x-large;
+}
+
+h1{
+  text-align: center;
+  color:rgb(16, 16, 26);
+  font-family:'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: -8px;
+  padding: -0px;
+  overflow: hidden;
+  background-color: #201e24f2;
+}
+
+ul a{
+  float:left;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration:none;
+}
+
+.navbar a{
+width: 25%;
+}
+
+.navbar a:hover {
+  background-color: #807c8b;
+}
+
+a.split{
+  float:right;
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+ul a.active {
+    background-color:#47454b;
+  }
+
+img{
+  object-fit: cover;
+  border: 1.5px solid #201e24;
+  border-radius: 3px;
+  margin-top: 15px;
+  padding: -30px;
+  width: 1000px;
+  height: auto;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  margin-left: 370px;
+  gap: 30px;
+  position: relative;
+}
+
+.img-box {
+  position: relative;
+  width: 30%;
+  margin-left: 70px;
+}
+
+.image {
+  width: 100%;
+  display: block;
+}
+
+.image2 {
+  width: 106%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1px;
+  font-size: 15px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 106%;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 1px;
+  font-size: 13px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.img-box:hover .overlay2 {
+  opacity: 1;
+}
+
+.img-box:hover .overlay {
+  opacity: 1;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(18, 18, 18);
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(18, 18, 18);
+    padding: 10px;
+    margin: -5px -5px;
+    margin-top: -5px;
+    background-color: #eae9ec81;
+}
